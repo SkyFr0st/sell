@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">หน้าหลัก</a>
+                    <a href="shop.html">หน้าสินค้า</a>
+                    <a href="about.html">เกี่ยวกับเรา</a>
+                    <a href="login.html">Log In</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="container">
+    <form id="form-input" onsubmit="event.preventDefault(); FormSubmit();">
+        <h1>CRUD</h1>
+
+        <div class="Name-Last">
+            <label for="name-last">ชื่อ-สกุล :</label>
+            <input type="text" id="name" required>
+        </div>
+
+        <div class="Nickname">
+            <label for="nickname">ชื่อเล่น :</label>
+            <input type="text" id="nickname" required>
+        </div>
+
+        <div class="Age">
+            <label for="age">อายุ :</label>
+            <input type="number" id="age" required>
+        </div>
+
+        <div class="Address">
+            <label for="address">ที่อยู่ :</label>
+            <input type="text" id="address" required>
+        </div>
+
+        <div class="Tel">
+            <label for="tel">เบอร์โทร :</label>
+            <input type="number" id="tel" required>
+        </div>
+
+        <div class="BTN">
+            <button type="submit" id="btn-submit">บันทึกข้อมูล</button>
+            <button type="reset" id="btn-reset">ล้างข้อมูล</button>
+        </div>
+
+
+        <section>
+
+            <!-- แสดงข้อมูลที่บันทึก -->
+            <table border="1" id="tbl-contact">
+                <tr>
+                    <th>ชื่อ-สกุล</th>
+                    <th>ชื่อเล่น</th>
+                    <th>อายุ</th>
+                    <th>ที่อยู่</th>
+                    <th>เบอร์โทร</th>
+                    <th>แก้ไข</th>
+                    <th>ลบ</th>
+                </tr>
+
+                <tbody>
+                    <tr>    
+                        <td id="Name"></td>
+                        <td id="Nick"></td>
+                        <td id="Ages"></td>
+                        <td id="Address"></td>
+                        <td id="Tel"></td>
+                        <td id="Edit"></td>
+                        <td id="Delete"></td>
+                    </tr>
+                </tbody>
+
+
+
+            </table>
+
+        </section>
+
+    </form>
+</div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

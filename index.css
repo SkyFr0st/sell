@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img/background.jpeg);
+}
+h1{
+    background-color: rgb(255, 162, 250);
+    color: rgb(0, 4, 255);
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+header{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+header nav ul li{
+    display:inline;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 20px;
+}
+.container{
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: auto;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.Name-Last,.Nickname,.Age,.Address,.Tel{
+    padding: 2%;
+    margin:auto;
+}
+input{
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+#btn-submit,#btn-reset{
+    border-radius: 10px;
+    border-color: white;
+    color: rgb(0, 0, 0);
+    width: 270px;
+    font-size: 20px;
+    margin-left: 28%;
+    margin-bottom: 20px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blueviolet;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    width: 96%;
+    border-radius: 8px;
+}
+th{
+    text-align: center;
+    border-radius: 8px;
+}
+td{
+    vertical-align: bottom;
+    border-radius: 8px;
+}

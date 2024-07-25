@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img/background.jpeg);
+}
+h1{
+    background-color: rgb(255, 162, 250);
+    color: rgb(0, 4, 255);
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.container{
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: auto;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.username,.Password,.Email,.Tel,.Password1{
+    padding: 2%;
+    margin:auto;
+}
+input{
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+#but,#cancel,#login{
+    border-radius: 10px;
+    border-color: white;
+    color: black;
+    font-weight: 20px;
+    width: 270px;
+    font-size: 20px;
+    margin-left: 25%;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blueviolet;
+}
+#login1{
+    margin-left: 33%;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 37%;
+}
